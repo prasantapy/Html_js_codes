@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function myusername(){
+            document.getElementById("username").value="UserName";
+        }
+    </script>
+</head>
+<body onload="myusername();mysubmit()">
+    <form action="#" method="post">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="myname">
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input type="password" name="pass" id="mypass">
+        </div>
+        <div>
+            <fieldset>
+                <legend>Gender</legend>
+                <input type="radio" name="gender" id="male" value="male">male
+                <input type="radio" name="gender" id="female" value="female">female
+                <input type="radio" name="gender" id="others" value="others">others
+            </fieldset>
+        </div>
+        <div>
+            <label for="skills">Skills</label>
+            <input type="checkbox" name="skills" id="python" value="python">python
+            <input type="checkbox" name="skills" id="java" value="java">Jave
+            <input type="checkbox" name="skills" id="sql" value="sql">SQL
+            <input type="checkbox" name="skills" id="html" value="html">HTMl
+            <input type="checkbox" name="skills" id="dj" value="dj">Django
+            <input type="checkbox" name="skills" id="api" value="api">Rest API
+        </div>
+        <div>
+            <label for="course">Course</label>
+            <select name="course">
+            <option value="mba" id="mba" name="course">MBA</option>
+            <option value="mca" id="mca" name="course">MCA</option>
+            <option value="btech" id="btech" name="course">BTECH</option>
+            </select>
+        </div>
+        <div>
+            <label for="file">Upload</label>
+            <input type="file" id="file1" name="file">
+        </div>
+        <div>
+            UserName:<input type="text" name="Username"><input type="button" id="username" >
+        </div>
+    </form>
+    
+</body>
+</html>

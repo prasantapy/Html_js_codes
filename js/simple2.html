@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function mybody(){
+            document.getElementById("reid").value="Register";
+            document.getElementById("logid").value="Login";
+            
+        }
+        function ssubmit(){
+            flag=confirm("Submit")
+            if (flag==true)
+            alert("Record Submited ")
+            else{
+                alert("Cancel ")
+            }
+        }
+    </script>
+</head>
+<body onload="mybody()">
+    <form >
+
+        <div>
+            <h1>Registion</h1>
+            UserName:<input type="text" name="name"><input type="button" id="reid">
+        
+        </div>
+        <div>
+            <h1>Login</h1>
+            login:<input type="text" name="login"><input type="button" id="logid">
+        </div>
+        <div>
+            <button onclick="ssubmit()">Submit</button>
+        </div>
+        <div>
+            
+        </div>
+    </form>
+</body>
+</html>

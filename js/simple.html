@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function bodyload(){
+            document.getElementById("pic").src ="../public/assets/anime.jpg";
+            document.getElementById("btreg").value="Register";
+            document.getElementById("btlog").value="login";
+            document.getElementById("signid").value="Sign in";
+        }
+    </script>
+</head>
+<body onload="bodyload()">
+    <div>
+        
+        
+        <img name="pic" id="pic" width="100" height="100" border="1">
+    </div>
+    <div>
+        <form  name="frmreg">
+            <h2>Register</h2>
+            User Name:<input type="text"> <input name="btreg"  id="btreg"    type="button">
+        </form>
+        <form  name="frmlogin">
+            <h2>Login</h2>
+            Email:<input type="email"> <input  id="btlog" name="btlogin"type="button">
+        </form>
+    </div>
+    <div>
+        <form name="formsign">
+            <h3>Sign In</h3>
+            Email:<input type="email"> <input id="signid" type="button">
+        </form>
+    </div>
+</body>
+</html>
