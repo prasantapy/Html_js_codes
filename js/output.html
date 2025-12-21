@@ -6,11 +6,14 @@
     <title>Document</title>
     <script>
         function DeleteClick(){
+            console.warn("Are you sure to Delete ")
             flag=confirm("Delete all record")
             if(flag==true){
-                alert("Record are sucessfuly delete")
+                document.getElementById("contaniner").outerHTML="<form color=red>Recored want to delete </form>"
+                
             }else{
-                alert("Delete Cancel ")
+                document.write("Delete Cancel ")
+                
             }
 
         }
@@ -18,6 +21,9 @@
 </head>
 <body>
     
+    
     <button onclick="DeleteClick()">Delete</button>
+    <p id="contaniner"></p>
+
 </body>
 </html>

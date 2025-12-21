@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mydiv{
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;">ABC College of Engineering </h2>
+    <hr>
+    <h4 style="text-align: center;">Empowing Future Engineers</h4>
+    <hr>
+    <div class="mydiv">
+        <nav>
+            <a href="home">Home</a>
+            <a href="about">About</a>
+            <a href="contact">Contact</a>
+        </nav>
+    </div>
+    <div style="text-align: center;">
+        <h3><ins>Student Admission Form</ins></h3>
+        
+    </div>
+    <hr>
+    <form>
+    <h3 style="color: blue;" name="personal">Personal Details</h3>
+    <hr>
+    <div>
+        <label for="fname">Full Name :</label>
+        <input type="text" id="fname" name="personal" value="Prasanta">
+        
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="personal">
+    </div>
+    <div>
+        <label for="mobile">Mobile</label>
+        <input type="number" id="mobile" name="personal">
+    </div>
+    <div>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="personal">
+    </div>
+    <div>
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" name="gender" id="male" value="male">Male
+            <input type="radio" name="gender" id="female" value="female">female
+            <input type="radio" name="gender" id="others" value="Others">Others
+        </fieldset>
+    </div>
+    <input type="ch" id="add">
+    <div>
+        <label for="course">Course Applied</label>
+        <select>
+            <option value="btech" selected name="course" id="btech">B.Tech</option>
+            <option value="mba" name="course" id="mba">MBA</option>
+            <option value="others" name="course" id="others">Others</option>
+        </select>
+    </div>
+    <div>
+        <label for="skills">Skills</label>
+        <input type="checkbox" name="skills"id="html" value="html">HTML
+        <input type="checkbox" name="skills" id="css" value="css">CSS
+        <input type="checkbox" name="skills" id="js" value="js">JavaScript
+    </div>
+    <div>
+        <label for="address">Address</label><br>
+        <textarea></textarea>
+    </div>
+    </form>
+    <div>
+        <strong>Education Details</strong>
+    </div>
+    <hr>
+    <div>
+        <table border="1">
+            <tr>
+                <th>Exam</th>
+                <th>Board</th> 
+                <th>Percentage</th> 
+                <th>Year</th>
+            </tr>
+            <tr>
+            <td>10th</td>
+            </tr>
+            <tr>
+            <td>12th</td>
+            <tr>
+            <td>Gradution</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h3><strong>Upload Resume</strong></h3>
+    </div>
+    <hr>
+    <div>
+        
+        <input type="file" id="file" name="file">
+    </div>
+    <p hidden>Terms and Conditions (T&Cs) are a legally binding agreement between a service provider and a user, outlining rules, responsibilities, and rights for using a product, app, or website, also known as Terms of Service, Terms of Use, or End User License Agreement (EULA). They set expectations, limit liability, define acceptable user conduct, cover intellectual property</p>
+    <div>
+        <input type="checkbox" name="box">
+        <small>I agree to the <a href="#p"></a></small>
+    </div>
+    <div>
+        <input type="submit"> <input type="reset">
+    </div>
+    <hr>
+    <div style="text-align: center;">
+        <ins>Footer</ins>
+    </div>
+    <hr>
+    <div>
+        contact us: <a href="@mailto:info@abcollege.com">info@abcollege.com</a> | <p>© 2025 ABC College of Engineering. All Rights Reserved.</p>
+    </div>
+</body>
+</html>
