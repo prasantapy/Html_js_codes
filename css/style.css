@@ -1,5 +1,7 @@
 body{
 
-    background-image: url("../public/assets/sky.jpg");
-    ba
+    background-image: url("../public/assets/cartoon.gif");
+    background-repeat:no-repeat;
+    background-position: right top;
+    background-origin:inherit;
 }
