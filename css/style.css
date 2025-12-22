@@ -1,7 +1,12 @@
+div{
+   
+   border: 10px solid rgb(206, 138, 138);
+   max-width: 300px;
+   padding: 20px 10px 20px 10px;
+   background-color:#f0f0f0;
+   margin: 300px;
+}
 body{
-
-    background-image: url("../public/assets/cartoon.gif");
-    background-repeat:no-repeat;
-    background-position: right top;
-    background-origin:inherit;
+   background-color:powderblue;
+ 
 }
