@@ -1,0 +1,23 @@
+
+.text{
+    padding: 20px 10px 20px 10px ;
+    color: white;
+    display: flex;
+    height: 1000px;
+    text-align: center;
+    background-image: url('../public/assets/hillandsun.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-right: 10px;
+    font-family: Arial, Helvetica,sans-serif;
+    line-height: 1.8;
+    font-size: 40px;
+    text-align: center;
+  
+
+}
+
+body{
+    background-color: blue;
+}
